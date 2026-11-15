@@ -1,1 +1,3 @@
-# github
+## Contributors
+
+This project welcomes collaboration.
