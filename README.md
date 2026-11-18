@@ -48,3 +48,25 @@ Run the tests with:
 ```bash
 python -m unittest test_word_wrap.py
 ```
+
+### dedent_block
+
+Remove the common leading whitespace from a multiline string.
+
+```bash
+python dedent_block.py "    Hello\n    World"
+# Hello
+# World
+```
+
+```python
+from dedent_block import dedent_block
+
+print(dedent_block("    Hello\n    World"))  # Hello\nWorld
+```
+
+Run the tests with:
+
+```bash
+python -m unittest test_dedent_block.py
+```
